@@ -1,0 +1,24 @@
+.countries-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media only screen and (max-width: 992px){
+    .countries-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .countries-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width: 476px){
+    .countries-container{
+    display: block;
+    
+    }
+}
