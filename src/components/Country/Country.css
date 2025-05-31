@@ -8,6 +8,19 @@
 
 }
 .visited{
-    background-color: rgb(162, 255, 0);
+    background-color: rgb(244, 255, 222);
     color:#000 !important
+}
+.notvisited{
+    background-color: rgb(175, 255, 248);
+    color:#000000 !important
+}
+.visited-button{
+    background-color: rgb(0, 255, 0);
+    color: #000000 !important;
+}
+
+.notvisited-button{
+    background-color: rgb(174, 0, 255);
+    color: #ffffff !important;
 }
